@@ -1,0 +1,26 @@
+/* CSS reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.navbar {
+	position: sticky;
+}
+
+
+.background{
+	min-height: 100vh;
+	background-color: gray;
+	background-image: url("./images/pexels-roberto-nickson-2559941.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center top;
+	background-attachment: fixed;
